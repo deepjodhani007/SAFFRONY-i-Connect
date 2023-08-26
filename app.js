@@ -11,7 +11,7 @@ const DB =
   "mongodb+srv://deepjodhani007:wFAWqgZIZoZSbvXV@cluster0.mktdbvt.mongodb.net/";
 
 //if we use local then it's get 3000 otherwise they automatically
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 5000;
 
 //middleware
 app.use(express.json());
